@@ -10,12 +10,12 @@ namespace Library_Management_System
     {
         public void OnBookBorrowed(string title)
         {
-            Console.WriteLine($"Manager {ID} ({Name}) notified: Book {title} has been borrowed.");
+            Console.WriteLine($"Manager {Name} with ID({ID}) notified: Book {title} has been borrowed.");
         }
 
         public void OnBookReturned(string title)
         {
-            Console.WriteLine($"Manager {ID} ({Name}) notified: Book {title} has been returned.");
+            Console.WriteLine($"Manager {Name} with ID({ID}) notified: Book {title} has been returned.");
         }
     }
 }
